@@ -6,6 +6,7 @@ public class Player_Efect : MonoBehaviour
 {
     GameObject game_control;
     Game_Control gc;
+    MainButton_Control button;
 
     AudioSource audioSource;
     Animator animator;
@@ -36,6 +37,8 @@ public class Player_Efect : MonoBehaviour
         if(pauseGameTimer <= 0)
         {
             gc.isPausing = true;
+            button = game_control.GetComponent<MainButton_Control>();
+            button.OpenChooseScence();
         }
     }
 }

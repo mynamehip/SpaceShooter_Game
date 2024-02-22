@@ -129,7 +129,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bullet: {fileID: 3604237073699794093, guid: 6ecf868be71d2ae4e8ea5a86f7bd868f, type: 3}
   playerEffect: {fileID: 8150140493302503923, guid: cbae87ad77235a14f9e7d7edff8fb4c5, type: 3}
-  game_control: {fileID: 1803404059588348665, guid: 5984a60eb9af36442b39a8b27de6b255, type: 3}
   shootSound: {fileID: 8300000, guid: fe1980ededab5e64cb6e25c04d44d936, type: 3}
 --- !u!60 &607933901864043759
 PolygonCollider2D:
@@ -195,7 +194,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 0.1
+  m_Volume: 0.05
   m_Pitch: 1
   Loop: 0
   Mute: 0
